@@ -4,7 +4,15 @@ body {
 	text-align: left;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
-	background: #343434;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background: rgba(143,140,137,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(143,140,137,1) 11%, rgba(165,124,95,1) 38%, rgba(176,116,75,1) 51%, rgba(217,87,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(11%, rgba(143,140,137,1)), color-stop(38%, rgba(165,124,95,1)), color-stop(51%, rgba(176,116,75,1)), color-stop(100%, rgba(217,87,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(143,140,137,1) 11%, rgba(165,124,95,1) 38%, rgba(176,116,75,1) 51%, rgba(217,87,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(143,140,137,1) 11%, rgba(165,124,95,1) 38%, rgba(176,116,75,1) 51%, rgba(217,87,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(143,140,137,1) 11%, rgba(165,124,95,1) 38%, rgba(176,116,75,1) 51%, rgba(217,87,0,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(143,140,137,1) 11%, rgba(165,124,95,1) 38%, rgba(176,116,75,1) 51%, rgba(217,87,0,1) 100%);
 }
 *
 {
@@ -46,10 +54,7 @@ margin-bottom:0px;
 .topNaviagationLink a:hover
 {
 text-align:center;
-color:#FFFFFF;
-display: block;
-width:121px;
-height: 35px;
+color:#D95700;
 line-height: 35px;
 border-bottom:none;
 }
@@ -59,9 +64,6 @@ border-bottom:none;
 position:center;
 width:420px;
 height:315px;
-border-width:5px;
-border-style: solid;
-border-color: #D95700;
 background-image:url(mainImage.jpg);
 background-size:contain;
 background-position:center;
@@ -99,9 +101,7 @@ top:10px;
 margin-left:200px;
 margin-right:200px;
 bottom: 10px;
-background-image:url(contentBack.png);
-background-color:#FFFFFF;
-background-repeat:repeat-x;
+background-color:#AEAEAE;
 }
 
 h1
