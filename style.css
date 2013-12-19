@@ -1,21 +1,10 @@
-/* A Free Design by Bryant Smith (bryantsmith.com) */
-
-
-
-
-
-
-
-
 body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
-	color: #000000;
-	background: #000000 url(background.png);
-	background-repeat:repeat-x;
+	background: #343434;
 }
 *
 {
@@ -42,7 +31,7 @@ width:121px;
 height: 35px;
 line-height: 35px;
 float:left;
-color:#000000;
+color:#FFFFFF;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
@@ -50,7 +39,7 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 .topNaviagationLink a
 {
 text-decoration:none;
-color:#000000;
+color:#FFFFFF;
 margin-bottom:0px;
 }
 
@@ -62,26 +51,20 @@ display: block;
 width:121px;
 height: 35px;
 line-height: 35px;
-background-image:url(tab.png);
 border-bottom:none;
 }
 
 #mainPicture
 {
-clear:both;
-width:670px;
-height:345px;
-background-color:#000000;
-}
-
-#mainPicture .picture
-{
-position:relative;
-width:650px;
-height:325px;
-top:10px;
-margin-left:10px;
+position:center;
+width:420px;
+height:315px;
+border-width:5px;
+border-style: solid;
+border-color: #D95700;
 background-image:url(mainImage.jpg);
+background-size:contain;
+background-position:center;
 background-repeat:no-repeat;
 }
 
@@ -89,9 +72,9 @@ background-repeat:no-repeat;
 {
 position:relative;
 top:14px;
-left:22px;
-font-size:27px;
-color:#000000;
+left:50px;
+font-size:35px;
+color:#FFFFFF;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
@@ -101,14 +84,16 @@ position:relative;
 top:12px;
 left:22px;
 font-size:14px;
-color:#484848;
+color:#FFFFFF;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
 .contentBox
 {
 position:relative;
-border: 10px solid black;
+border-width: 5px;
+border-style:solid;
+border-color: #D95700;
 width:auto;
 top:10px;
 margin-left:200px;
